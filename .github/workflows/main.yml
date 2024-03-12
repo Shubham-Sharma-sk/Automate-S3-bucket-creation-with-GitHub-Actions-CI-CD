@@ -1,4 +1,4 @@
-name: Create S3 Bucket
+name: Create Bucket
 
 on:
   push:
