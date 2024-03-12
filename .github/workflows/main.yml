@@ -3,7 +3,7 @@ name: Create Bucket
 on:
   push:
     branches:
-      - development
+      - devlopment
 
 jobs:
   create_bucket:
