@@ -14,7 +14,7 @@ jobs:
       
       - name: Check if S3 bucket exists
         run: |
-          aws s3api head-bucket --bucket ${{ secrets.S3_BUCKET_NAME }} 2>/dev/null || exit 0
+          `aws s3api head-bucket --bucket ${{ secrets.S3_BUCKET_NAME }}`
           echo "Bucket already exists"
           exit 1
         env:
