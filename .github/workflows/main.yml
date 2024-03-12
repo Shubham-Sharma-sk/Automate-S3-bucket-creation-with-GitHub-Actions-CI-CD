@@ -9,7 +9,7 @@ jobs:
   create_bucket:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout repository 
         uses: actions/checkout@v2
       
       - name: Check if S3 bucket exists
